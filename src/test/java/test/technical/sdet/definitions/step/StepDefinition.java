@@ -22,8 +22,11 @@ public class StepDefinition {
 
     @Before
     public void setup() {
+        // must define path to chrome driver
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\chromedriver_2.29.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     @After
@@ -34,7 +37,7 @@ public class StepDefinition {
     @Given("^that I am on the sportsbook homepage$")
     public void that_I_am_on_the_sportsbook_homepage() throws Throwable {
         homePageObject = new HomePageObject(driver);
-        homePageObject.navigateTo();
+        homePageObject.navigateToHomePage();
 
     }
 

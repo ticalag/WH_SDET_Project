@@ -73,7 +73,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6629912245,
+  "duration": 3860612294,
   "status": "passed"
 });
 formatter.scenario({
@@ -119,21 +119,21 @@ formatter.match({
   "location": "StepDefinition.that_I_am_on_the_sportsbook_homepage()"
 });
 formatter.result({
-  "duration": 16543315675,
+  "duration": 4431803555,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_log_in()"
 });
 formatter.result({
-  "duration": 6116179370,
+  "duration": 1695136993,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.navigate_to_Football_event()"
 });
 formatter.result({
-  "duration": 3119481235,
+  "duration": 688727162,
   "status": "passed"
 });
 formatter.match({
@@ -146,22 +146,22 @@ formatter.match({
   "location": "StepDefinition.place_a_bet(double)"
 });
 formatter.result({
-  "duration": 4710751218,
+  "duration": 1828403453,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.the_bet_should_be_successfully_placed_and_the_balance_updated()"
 });
 formatter.result({
-  "duration": 1198353116,
+  "duration": 57022559,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7900524957,
+  "duration": 726682935,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3816762142,
+  "duration": 3072914315,
   "status": "passed"
 });
 formatter.scenario({
@@ -207,21 +207,21 @@ formatter.match({
   "location": "StepDefinition.that_I_am_on_the_sportsbook_homepage()"
 });
 formatter.result({
-  "duration": 20516738822,
+  "duration": 4181003911,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_log_in()"
 });
 formatter.result({
-  "duration": 8105815354,
+  "duration": 1769631880,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.navigate_to_the_Tennis_event()"
 });
 formatter.result({
-  "duration": 4432229651,
+  "duration": 878378338,
   "status": "passed"
 });
 formatter.match({
@@ -234,18 +234,18 @@ formatter.match({
   "location": "StepDefinition.place_a_bet(double)"
 });
 formatter.result({
-  "duration": 6812059934,
+  "duration": 5428973860,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.the_bet_should_be_successfully_placed_and_the_balance_updated()"
 });
 formatter.result({
-  "duration": 6138409232,
+  "duration": 51696731,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2212118776,
+  "duration": 695308152,
   "status": "passed"
 });
 });
